@@ -1,0 +1,44 @@
+.heading {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+.heading:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 3px solid red;
+}
+.center_elements{
+    display: flex; justify-content: center; text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    transition: 0.3s;
+ }
+
+li a{
+    color: white;
+    text-decoration:none;
+}
+
+li a {
+    color: white;
+    text-decoration:none;
+}
